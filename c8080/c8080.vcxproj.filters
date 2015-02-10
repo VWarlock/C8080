@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="c8080.cpp" />
+    <ClCompile Include="c_parser.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="assembler.cpp" />
+    <ClCompile Include="b_zForFlagA.cpp" />
+    <ClCompile Include="b_saveRegs.cpp" />
+    <ClCompile Include="a_compile.cpp" />
+    <ClCompile Include="a_compileCondOperator.cpp" />
+    <ClCompile Include="a_compileConstI.cpp" />
+    <ClCompile Include="a_compileConstS.cpp" />
+    <ClCompile Include="a_compileConvert.cpp" />
+    <ClCompile Include="a_compileDeaddr.cpp" />
+    <ClCompile Include="a_compileIncDecOperator.cpp" />
+    <ClCompile Include="a_compileMonoOperator.cpp" />
+    <ClCompile Include="a_compileOperator.cpp" />
+    <ClCompile Include="a_compileOperator2_8.cpp" />
+    <ClCompile Include="a_compileOperator2_16.cpp" />
+    <ClCompile Include="a_compileOperator2_16_const_add.cpp" />
+    <ClCompile Include="a_compileOperatorV2_8.cpp" />
+    <ClCompile Include="a_compileOperatorV2_8_const.cpp" />
+    <ClCompile Include="a_compileOperatorV2_16.cpp" />
+    <ClCompile Include="a_compileOperatorV2_16_const.cpp" />
+    <ClCompile Include="a_compileSave.cpp" />
+    <ClCompile Include="a_compileSet.cpp" />
+    <ClCompile Include="a_compileSetV2_nswap.cpp" />
+    <ClCompile Include="a_compileVar.cpp" />
+    <ClCompile Include="b_compineState.cpp" />
+    <ClCompile Include="b_fork.cpp" />
+    <ClCompile Include="b_load.cpp" />
+    <ClCompile Include="b_needFunction.cpp" />
+    <ClCompile Include="b_writeJmp.cpp" />
+    <ClCompile Include="b_zForFlag8.cpp" />
+    <ClCompile Include="a_compileSetV2_swap.cpp" />
+    <ClCompile Include="FinLib\exception.cpp">
+      <Filter>FinLib</Filter>
+    </ClCompile>
+    <ClCompile Include="FinLib\file.cpp">
+      <Filter>FinLib</Filter>
+    </ClCompile>
+    <ClCompile Include="FinLib\findfiles.cpp">
+      <Filter>FinLib</Filter>
+    </ClCompile>
+    <ClCompile Include="FinLib\replace.cpp">
+      <Filter>FinLib</Filter>
+    </ClCompile>
+    <ClCompile Include="FinLib\string.cpp">
+      <Filter>FinLib</Filter>
+    </ClCompile>
+    <ClCompile Include="FinLib\winapi_exception.cpp">
+      <Filter>FinLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="asm.h" />
+    <ClInclude Include="c8080.h" />
+    <ClInclude Include="c_parser.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="a.h" />
+    <ClInclude Include="assembler.h" />
+    <ClInclude Include="nodes.h" />
+    <ClInclude Include="b.h" />
+    <ClInclude Include="FinLib\exception.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\file.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\fillbuffer.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\findfiles.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\replace.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\std.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\string.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\types.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FinLib\winapi_exception.h">
+      <Filter>FinLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FinLib">
+      <UniqueIdentifier>{b0f247b7-13d3-4193-a52c-3c03c363fad8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
